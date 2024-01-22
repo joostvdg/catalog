@@ -1,6 +1,6 @@
 # `git-clone`
 
-**Note: this Task is only compatible with Tekton Pipelines versions 0.29.0 and greater!**
+**Note: this Task is only compatible with Tekton Pipelines versions 0.38.0 and greater!**
 
 **Note: this Task is not backwards compatible with the previous versions as it is now run as a non-root user!**
 
@@ -108,6 +108,7 @@ spec:
 
 * **commit**: The precise commit SHA that was fetched by this Task
 * **url**: The precise URL that was fetched by this Task
+* **committer-date**: The epoch timestamp of the commit that was fetched by this Task
 
 ## Platforms
 
